@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080.602" height="1133.281" viewBox="0 0 1080.602 1133.281">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.337" y1="0.876" x2="0.832" y2="0.329" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f60"/>
+      <stop offset="1" stop-color="#fdab29"/>
+      <stop offset="1" stop-color="#fba405"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="1.111" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f60"/>
+      <stop offset="0.656" stop-color="#fba405"/>
+      <stop offset="1" stop-color="#fdab29"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_12" data-name="Group 12" transform="translate(358 377)">
+    <path id="bgWave-mobile" d="M426.976,846.527S799.533,708.4,782.609,549.92c-7.966-74.591-146.714-220.162-307.89-327.957C293.447,100.73,87.937,20.918,87.937,20.918S73,22.526,68.265,37.138s.037,791.705.037,791.705,2.258,18.685,23.14,18.685H416.664S422.882,848.086,426.976,846.527Z" transform="translate(-424.168 -397.918)" fill="url(#linear-gradient)"/>
+    <path id="Path_181" data-name="Path 181" d="M174,757.552S575.6,441.185,449.606,330.945,720.484,564.082,720.484,564.082l70.868,193.47Z" transform="translate(-68.75 -1.271)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

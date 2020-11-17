@@ -1,0 +1,23 @@
+$primary-color-1:#ff6600;
+$primary-color-2:#fba405;
+$primary-color-3:#fdab29;
+$dark-color:#402e32;
+$common-width:1089.83px;
+
+@font-face{
+    font-family: O-B-font;
+    src:url(../fonts/Helvetica-BoldOblique.ttf);
+}
+@font-face{
+    font-family: R-B-font;
+    src: url(../fonts/helvetica-rounded-bold-5871d05ead8de.otf);
+}
+@font-face{
+    font-family: R-font;
+    src:url(../fonts/Helvetica.ttf);
+}
+@mixin d-flex-autoCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
