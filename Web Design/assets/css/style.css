@@ -414,4 +414,15 @@ footer .social-links a {
     left: 8px;
   }
 }
+
+@media screen and (max-width: 360px) and (min-height: 748px) {
+  body {
+    background-size: 280%;
+    background-position: -345px -295px;
+  }
+  .hero-left {
+    top: 40px;
+    left: 8px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
