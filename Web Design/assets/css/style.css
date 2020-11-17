@@ -403,4 +403,15 @@ footer .social-links a {
     margin-right: -4px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  body {
+    background-size: 280%;
+    background-position: -345px -350px;
+  }
+  .hero-left {
+    top: 40px;
+    left: 8px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
