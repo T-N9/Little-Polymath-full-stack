@@ -15,9 +15,6 @@
     }
 }
 @media screen and (max-width:992px){
-    body{
-        // background-color: red;
-    }
     #main-section{
         background-position-x: -180px;
     }
@@ -192,13 +189,22 @@
 @media screen and (max-width:375px) and (min-height:810px){
     body {
         background-position: 85px 285px;
+        // background-image: none;
     }
     
 }
 @media screen and (max-width:360px) and (min-height:740px){
     body {
-        background-position: 85px 285px;
+        // background-position: 85px 285px;
+        background-image: none;
     }
-    
+    .social-links{
+        svg{
+            background-color: $primary-color-1;
+            border: 2px solid $primary-color-1;
+            border-radius: 5px;
+            padding: 0 2px;
+        }
+    }
 }
 

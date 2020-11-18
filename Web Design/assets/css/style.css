@@ -419,7 +419,13 @@ footer .social-links a {
 
 @media screen and (max-width: 360px) and (min-height: 740px) {
   body {
-    background-position: 85px 285px;
+    background-image: none;
+  }
+  .social-links svg {
+    background-color: #ff6600;
+    border: 2px solid #ff6600;
+    border-radius: 5px;
+    padding: 0 2px;
   }
 }
 /*# sourceMappingURL=style.css.map */
