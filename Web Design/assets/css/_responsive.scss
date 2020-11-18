@@ -57,11 +57,6 @@
         width: 100%;
     }
     .hero-left{
-        // margin-left: -85px;
-        // margin-top: -200px;
-        // position: absolute;
-        // top: 110px;
-        // left: -6px;
         img{
             width: 565px;
         }
@@ -89,12 +84,10 @@
         box-shadow: none;
         background-image: none;
         background-color: transparent;
-        // position: relative;
         justify-content: center;
     }
     .sub-main-section{
         width: 100%;
-        // flex-direction: column;
         align-items: center;
     }
     .how-to-play{
@@ -106,6 +99,12 @@
     .lp-copyright{
         color: $primary-color-1;
         margin-left: 0px !important;
+    }
+    .dropdown{
+        padding: 2px 15px !important;
+    }
+    .dropdown-menu{
+        margin: .125rem -12px 0 !important;
     }
 }
 @media screen and (max-width:576px){
@@ -136,6 +135,9 @@
             font-size: 15px;
         }
     }
+    .lp-copyright{
+        visibility: hidden;
+    }
     footer{
         bottom: 0px;
         .social-links{
@@ -155,9 +157,48 @@
         }
     }
 }
-@media screen and (max-width:360px) and (min-height:740px){
+@media screen and (max-width:320px){
     body {
-        background-color: turquoise;
+        background-position: 85px 130px;
+    }
+    .hero-right p {
+        font-size: 20px;
+    }
+    .hero-left{
+        margin-top: 10px;
+        img{
+            width: 100%;
+        }
+    }
+    .start-btn{
+        width: 150px;
+        height: 50px;
+        p{
+            font-size: 18px;
+        }
+    }
+    .how-to-play{
+        p{
+            font-size: 15px;
+        }
+    }
+}
+@media screen and (max-width:411px) and (min-height:820px){
+    body {
+        background-position: 85px 285px;
     }
     
 }
+@media screen and (max-width:375px) and (min-height:810px){
+    body {
+        background-position: 85px 285px;
+    }
+    
+}
+@media screen and (max-width:360px) and (min-height:740px){
+    body {
+        background-position: 85px 285px;
+    }
+    
+}
+
